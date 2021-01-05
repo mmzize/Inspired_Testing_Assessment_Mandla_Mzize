@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite thread-count="1" name="Verify Correct Premium" parallel="false">
+	<test name="Verify Correct Premium">
+		<classes>
+			<class name ="Web_Tests.Online_Banking_Tests"/>
+		</classes>
+	</test>
+</suite>

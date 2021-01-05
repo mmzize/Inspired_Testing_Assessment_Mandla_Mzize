@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Verify Correct Premium" duration-ms="27781" started-at="2021-01-05T13:31:50 CAT" finished-at="2021-01-05T13:32:18 CAT">
+    <groups>
+    </groups>
+    <test name="Verify Correct Premium" duration-ms="27781" started-at="2021-01-05T13:31:50 CAT" finished-at="2021-01-05T13:32:18 CAT">
+      <class name="Web_Tests.Online_Banking_Tests">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="reportSetup" is-config="true" duration-ms="94" started-at="2021-01-05T13:31:50 CAT" finished-at="2021-01-05T13:31:50 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="Tests1()[pri:1, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="Tests1" duration-ms="2339" started-at="2021-01-05T13:31:50 CAT" description="Deposit On Customers First Account" finished-at="2021-01-05T13:31:52 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-01-05T13:31:52 CAT" finished-at="2021-01-05T13:31:52 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tests1 status=SUCCESS method=Online_Banking_Tests.Tests1()[pri:1, instance:Web_Tests.Online_Banking_Tests@51c668e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Tests2()[pri:2, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="Tests2" duration-ms="1096" started-at="2021-01-05T13:31:52 CAT" description="Deposit On All Accounts" finished-at="2021-01-05T13:31:54 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-01-05T13:31:54 CAT" finished-at="2021-01-05T13:31:54 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tests2 status=SUCCESS method=Online_Banking_Tests.Tests2()[pri:2, instance:Web_Tests.Online_Banking_Tests@51c668e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Tests3()[pri:3, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="Tests3" duration-ms="13216" started-at="2021-01-05T13:31:54 CAT" description="Deposit And Withdraw" finished-at="2021-01-05T13:32:07 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tests3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-01-05T13:32:07 CAT" finished-at="2021-01-05T13:32:07 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tests3 status=SUCCESS method=Online_Banking_Tests.Tests3()[pri:3, instance:Web_Tests.Online_Banking_Tests@51c668e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Test4()[pri:4, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="Test4" duration-ms="11097" started-at="2021-01-05T13:32:07 CAT" description="Read JSON File" finished-at="2021-01-05T13:32:18 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-01-05T13:32:18 CAT" finished-at="2021-01-05T13:32:18 CAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test4 status=SUCCESS method=Online_Banking_Tests.Test4()[pri:4, instance:Web_Tests.Online_Banking_Tests@51c668e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="Quit()[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="Quit" is-config="true" duration-ms="995" started-at="2021-01-05T13:32:18 CAT" finished-at="2021-01-05T13:32:19 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:Web_Tests.Online_Banking_Tests@51c668e3]" name="reportTeardown" is-config="true" duration-ms="223" started-at="2021-01-05T13:32:19 CAT" depends-on-methods="Web_Tests.Online_Banking_Tests.Quit" finished-at="2021-01-05T13:32:19 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- Web_Tests.Online_Banking_Tests -->
+    </test> <!-- Verify Correct Premium -->
+  </suite> <!-- Verify Correct Premium -->
+</testng-results>

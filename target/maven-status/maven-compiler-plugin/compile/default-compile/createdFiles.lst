@@ -1,0 +1,13 @@
+Web_Test_Functionality\Login_As_A_Customer.class
+Web_Test_Functionality\Home.class
+API_Tests\User_API_Tests.class
+Web_Test_Functionality\Logout.class
+Web_Test_Functionality\Deposit.class
+Web_Test_Functionality\ReadJson.class
+Web_Test_Functionality\Withdrawal.class
+Web_Test_Functionality\Accept_Quote_And_Buy_Cover.class
+Startup\Setup_Class.class
+Web_Test_Functionality\Transactions.class
+Test_Helpers\Report.class
+API_Test_Functionality\UsersAPI.class
+Web_Tests\Online_Banking_Tests.class
